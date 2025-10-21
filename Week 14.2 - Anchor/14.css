@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+}
+
+a{
+    font-family:"Montserrat",sans-serif;
+}
+body{
+    font-family: "Monserrat",sans-serif;
+}
+
+
+.navBar{
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    position: sticky;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: bold;
+}   
+.navBar a{
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration:none;
+    font-size: bold;
+}
+.navBar a:hover{
+    background-color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.current{
+  background-color: rgb(65, 64, 64);
+}

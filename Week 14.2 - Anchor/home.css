@@ -1,0 +1,33 @@
+.navBar{
+  background-color: black;
+  overflow: hidden;
+  top: 0;
+  position: sticky;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar a{
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration:none;
+  font-weight: bold;
+}
+.current{
+  background-color: rgb(65, 64, 64);
+}
+
+.navBar a:hover{
+  background-color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body{
+  background-color: azure;
+  font-family: "Monserrat",sans-serif;
+}

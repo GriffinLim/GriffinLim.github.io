@@ -1,0 +1,84 @@
+body{
+  background-color: azure;
+  font-family: "Monserrat",sans-serif;
+}
+
+h1{
+  font-family: "Montserrat",sans-serif;
+}
+
+table,td,tr{  
+  border: 2px solid black;
+  border-collapse:collapse;
+  padding: 10 px;
+  font-family: "Montserrat",sans-serif;
+  font-weight:bold;
+  background-color: lightsteelblue;
+}
+
+a{
+  font-family:"Montserrat",sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: bold;
+  
+}
+
+.navBar{
+  background-color: black;
+  overflow: hidden;
+  top: 0;
+  position: sticky;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar a{
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.navBar a:hover{
+  background-color: gray;
+  text-decoration: underlin e;
+  cursor: pointer;
+}
+
+.istirahat{
+  background-color: goldenrod;
+  text-align: center;
+  font-style: italic;
+}
+
+.pulang{
+  background-color: red;
+  text-align: center;
+  font-style: italic;
+}
+
+.waktu{
+  background-color: aquamarine;
+}
+
+.hari{
+  background-color: lightgreen  ;
+  border: 1px solid black;
+  border-collapse:collapse;
+  padding: 10 px;
+  font-family: "Montserrat",sans-serif;
+  font-weight:bold;
+}
+
+.current{
+  background-color: rgb(65, 64, 64);
+}
